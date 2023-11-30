@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jean Erick Siqueiros Lewis</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">START</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CV</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Erick Siqueiros</h1>
+            <h2>Software Engineer -
+                HTML, javaScript, CSS</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About Me</h2>
+            <p><span>Hi, I'm Erick Siqueiros.</span> I have worked in the IT field for over 10 years. About 2 years ago,
+                I started shifting more towards programming. I began my university studies in Systems Engineering, along
+                with pursuing certifications in JavaScript, HTML, CSS, and methodologies such as SCRUM. This shift is
+                aimed at redirecting my career towards becoming a full-time Front-end developer.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>BirthDay</strong>
+                            27-06-1981
+                        </li>
+                        <li>
+                            <strong>Phone Number</strong>
+                            +52 646 1437017
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            zerikx@gmail.com
+                        </li>
+                        <li>
+                            <strong>Linkedin</strong>
+                            jean-erick-siqueiros-lewis-21574b27b
+                        </li>
+                        <li>
+                            <strong>Adress</strong>
+                            Calle Pirul 307 Indeco
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Employee</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>INTERESTS</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>VIDEOGAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVELING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-android"></i>
+                            <span>ANDROID</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-basketball"></i>
+                            <span>BASKETBALL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>COMPUTERS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JAVASCRIPT</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Scrum</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>English</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum Vitae</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Software Engineering</h4>
+                        <span class="casa">UMOV University</span>
+                        <span class="fecha">2022 - Today</span>
+                        <p>I am currently studying Computer Systems Engineering at UMOV University. I have completed 40%
+                            of my program. Besides, I am pursuing multiple certifications on the UDEMY platform,
+                            covering subjects such as JavaScript, HTML, SQL, Python, Data Analysis, Cybersecurity,
+                            Scrum, among others. My studies are focusing more on front-end development, and I am
+                            specializing in that area</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Emerging Technologies for Administration and Management.</h4>
+                        <span class="casa">Bachelor online SEP</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Bachelor's degree specialized in program management, data analysis, as well as the necessary
+                            preparation for a career specialized in the field of computer systems.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>C++ Technician Programmer</h4>
+                        <span class="casa">English computer institute</span>
+                        <span class="fecha">1997 - 2000</span>
+                        <p>Technical career in programming based on the C++ language. The course lasted for 3 years and
+                            provided me with the tools to program in some of my jobs.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Work Experience</h3>
+                    <div class="item der">
+                        <h4>It support , intern developer</h4>
+                        <span class="casa">Ecoterra Services</span>
+                        <span class="fecha">2017 - Today</span>
+                        <p>Until three years ago, I worked in the systems and networks department at that company.
+                            Later, a specialized area was created to develop software for internal use within the
+                            company. As a result, we started receiving training and were required to pursue careers
+                            related to the field of programming, along with taking multiple certifications in
+                            JavaScript, HTML, CSS, Scrum methodology, databases, and cybersecurity</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>IT assistant</h4>
+                        <span class="casa">E-plug Computing</span>
+                        <span class="fecha">2011 - 2017</span>
+                        <p>I worked in the technical support department of this company, assisting various clients with
+                            their issues, ranging from operating system failures to problems with local networks.
+                            Additionally, I repaired computer equipment, installed servers, and set up
+                            telecommunications rooms.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>It intern</h4>
+                        <span class="casa">CyC Computers</span>
+                        <span class="fecha">2006 - 2011</span>
+                        <p>At this company, I assisted clients in resolving technical issues with their computers.
+                            Additionally, I developed simple software in C++ for some of them, depending on the specific
+                            case and their problems or needs.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Certifications</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Skills</h3>
+                    <div class="item izq">
+                        <h4>NETZUN JavaScript </h4>
+                        <span class="casa">Netzun</span>
+                        <span class="fecha">2023</span>
+                        <p>Programming with JavaScript at a basic level.
+                            Certificate ID: 3ED5B22B
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>UDEMY Complete Agile Scrum Master</h4>
+                        <span class="casa">UDEMY</span>
+                        <span class="fecha">2023</span>
+                        <p>Currently finished</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>UDEMY Complete JavaScript Course 2024</h4>
+                        <span class="casa">UDEMY</span>
+                        <span class="fecha">2023</span>
+                        <p>On course</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>
+                            CompTIA Security+ (SY0-701) Complete Course & Exam
+                        </h4>
+                        <span class="casa">UDEMY</span>
+                        <span class="fecha">2023</span>
+                        <p>On course</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Skills</h3>
+                    <div class="item der">
+                        <h4>NETZUN SQL Certificate</h4>
+                        <span class="casa">NETZUN</span>
+                        <span class="fecha">2022</span>
+                        <p>November 2023
+                            Certificate: 9873DF29
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>The Complete Data Analist Course</h4>
+                        <span class="casa">UDEMY</span>
+                        <span class="fecha">2023</span>
+                        <p>On course</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ultimate AWS Certified Cloud Practitioner CLF-C02</h4>
+                        <span class="casa">UDEMY</span>
+                        <span class="fecha">2023</span>
+                        <p>Completed, exam pending.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>NETZUN HTML Certificate</h4>
+                        <span class="casa">NETZUN</span>
+                        <span class="fecha">2022</span>
+                        <p>Introduction to programming using HTML.
+                            Certificate ID: BB52B840
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+
+                    <!--/div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    !-- SECCION CONTACTO --
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                !-- Formulario --
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                !-- Mapa --
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 4343443
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <--footer -->
+
+                    <footer>
+                        <a href="#inicio" class="arriba">
+                            <i class="fa-solid fa-angles-up"></i>
+                        </a>
+                        <div class="redes">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-discord"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </footer>
+
+                    <script src="script.js"></script>
+</body>
+
+</html>
