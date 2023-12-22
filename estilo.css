@@ -34,7 +34,7 @@ html {
 .contenedor-header header .logo a {
   font-family: "Righteous";
   font-size: 36px;
-  color: #5a6da8;
+  color: #313f68;
   text-decoration: none;
 }
 
@@ -53,11 +53,11 @@ html {
 }
 
 .contenedor-header header nav ul li a:hover {
-  color: #1839a5;
+  color: #313f68;
 }
 
 .nav-responsive {
-  background-color: #0a247a;
+  background-color: #313f68;
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -91,7 +91,7 @@ html {
 
 .inicio .contenido-banner img {
   margin-top: 40px;
-  border: 10px solid #4b65bb;
+  border: 10px solid #313f68;
   display: block;
   width: 80%;
   margin: auto;
@@ -124,7 +124,7 @@ html {
 }
 
 .inicio .contenido-banner .redes a:hover {
-  background-color: #4b65bb;
+  background-color: #313f68;
 }
 
 .sobremi {
@@ -180,12 +180,12 @@ html {
 
 .sobremi .fila .col ul li strong {
   display: inline-block;
-  color: #4b65bb;
+  color: #313f68;
   width: 130px;
 }
 
 .sobremi .fila .col ul li span {
-  background-color: #4b65bb;
+  background-color: #313f68;
   padding: 3px;
   font-weight: bold;
   border-radius: 5px;
@@ -210,7 +210,7 @@ html {
 }
 
 .sobremi .fila .col .contenedor-intereses .interes:hover {
-  background-color: #4b65bb;
+  background-color: #313f68;
 }
 
 .sobremi .fila .col .contenedor-intereses .interes i {
@@ -238,7 +238,7 @@ html {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #4b65bb;
+  background-color: #313f68;
   z-index: -1;
   transition: 1s;
 }
@@ -296,7 +296,7 @@ html {
 }
 
 .skills .skill .progreso {
-  background-color: #4b65bb;
+  background-color: #313f68;
   position: absolute;
   top: 0;
   left: 0;
@@ -307,7 +307,7 @@ html {
   position: absolute;
   height: 40px;
   width: 40px;
-  background-color: #4b65bb;
+  background-color: #313f68;
   border-radius: 50px;
   line-height: 40px;
   text-align: center;
@@ -523,7 +523,7 @@ html {
 }
 
 .curriculum .fila .item .casa {
-  color: #4359a1;
+  color: #313f68;
   font-size: 22px;
   font-weight: bold;
   display: block;
@@ -531,7 +531,7 @@ html {
 
 .curriculum .fila .item .fecha {
   display: block;
-  color: #4359a1;
+  color: #313f68;
   margin-bottom: 10px;
 }
 
@@ -540,18 +540,18 @@ html {
 }
 
 .curriculum .fila .izq {
-  border-right: 2px solid #4359a1;
+  border-right: 2px solid #313f68;
   margin-right: 20px;
 }
 
 .curriculum .fila .der {
-  border-left: 2px solid #4359a1;
+  border-left: 2px solid #313f68;
   margin-left: 20px;
 }
 
 .curriculum .fila .item .conectori {
   height: 2px;
-  background-color: #4359a1;
+  background-color: #313f68;
   width: 47px;
   position: absolute;
   top: 50%;
@@ -564,7 +564,7 @@ html {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background-color: #4359a1;
+  background-color: #313f68;
   float: right;
   position: relative;
   bottom: 4px;
@@ -738,7 +738,7 @@ html {
   top: 40%;
   background-color: #252a2e;
   padding: 20px;
-  max-swidth: 350px;
+  max-width: 350px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
